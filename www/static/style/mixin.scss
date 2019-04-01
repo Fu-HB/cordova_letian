@@ -1,0 +1,82 @@
+//适配函数
+$basePx:720;
+@function pxCount($px) {
+  @return  10*$px/$basePx + rem;
+}
+
+// 背景图片地址和大小
+@mixin Bis($url) { 
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+//宽高
+@mixin Wh($width, $height){
+	width: $width;
+	height: $height;
+}
+
+//字体大小，颜色
+@mixin Sc($size, $color){
+	font-size: $size;
+	color: $color;
+}
+@mixin DisplayBox{
+	display: -webkit-box;  
+    display: -moz-box;  
+    display: -ms-flexbox;  
+    display: -o-box;  
+    display: box; 
+}
+//flex 布局和子元素对其方式
+@mixin Flex($type: space-between){
+	display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	justify-content: $type;
+}
+@mixin BorderR($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin Rotate($deg) {
+	transform: rotate($deg);
+    -ms-transform:rotate($deg);  
+    -moz-transform:rotate($deg);  
+    -webkit-transform:rotate($deg); 
+    -o-transform:rotate($deg);
+}
+//定位全屏
+@mixin Allcover{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+//定位上下左右居中
+@mixin Center {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin Ct {  
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位左右居中
+@mixin Cl {  
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+} 

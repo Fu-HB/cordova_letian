@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-alipay-v2",
+        "scope": null,
+        "escapedName": "cordova-plugin-alipay-v2",
+        "name": "cordova-plugin-alipay-v2",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\MyStudy\\myWork\\letianApp"
+    ]
+  ],
+  "_from": "cordova-plugin-alipay-v2@latest",
+  "_id": "cordova-plugin-alipay-v2@1.0.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-alipay-v2",
+  "_nodeVersion": "10.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-alipay-v2_1.0.0_1532331497545_0.6881548900743322"
+  },
+  "_npmUser": {
+    "name": "hhjjj1010",
+    "email": "hhjjj1010@qq.com"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-alipay-v2",
+    "scope": null,
+    "escapedName": "cordova-plugin-alipay-v2",
+    "name": "cordova-plugin-alipay-v2",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-alipay-v2/-/cordova-plugin-alipay-v2-1.0.0.tgz",
+  "_shasum": "a165a74adc08e591c7b4edfdf923f596dff10d01",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-alipay-v2",
+  "_where": "E:\\MyStudy\\myWork\\letianApp",
+  "author": {
+    "name": "hhjjj1010"
+  },
+  "bugs": {
+    "url": "https://github.com/hhjjj1010/cordova-plugin-alipay-v2/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-alipay-v2",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "a cordova plugin, a JS version of Alipay SDK(20170725)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Dda7GX77z5razOLbfNmLCb/UFmephU31URMbsb10d7wuAZ7CwWaOPm6OA+FmiZZuZ4dyX2W+HnhSFeNk5EUPsw==",
+    "shasum": "a165a74adc08e591c7b4edfdf923f596dff10d01",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-alipay-v2/-/cordova-plugin-alipay-v2-1.0.0.tgz",
+    "fileCount": 24,
+    "unpackedSize": 9419487,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVYXpCRA9TVsSAnZWagAAcucP/iTTKFoJY2SSMGegwIiV\n64g1/1TSfZQd4mtA1R32b10UXBnn+Ow08p2LfRPfKp5byof1Gf2hGUiYOqZv\nYVDYI8/EVgh8/oa/V0mikgfMbcaQgsIrt/ugbURUlJyxVcHREfEEzuw9NRUs\nP4prVfA/m8T1VwQ0/2xxtTbAqYhTxVxFmMR25oS9LsOAke403PkJVW7vAsv5\nPoj3lpuJQtt5Re1i0cRrn0MIM2texSl+L8OHeoV6vZ2rYSTkQGU2RyJ+LuTl\n4YSipyV2p0skdAI4mSr6JNKknmKuHr7rhUFBsfbgsKUI69L4Hfr/1PpvJyAn\nMpuXw4g3dw4Eamoqn9sGPvBfn7tDLmD6MbwIKm6Q0HynIj/4UJViaRcBWX/n\n2Rdq5NbHKPpeKZdV6L4PFgMrI/kGbNlaMXjClezHZopm7OdqwRmBfIrYntA7\nNKdlbGer2nmDLtemV3XiAY9Y6QaTQneJIzTpS36HPUVl0I/bhn0yiI22rMDo\nFEPBoBj68u3jkaTEWlsyVEe/9FXjoa2fLdWoq/RIQzOPQ5DqaAm4FsVUC2Gi\nLx3FgERDIqD5u5XghHvJW0e1l5fuY4R5PnRXb7+NKoIpeRHIaPGJEr95fHQr\nbLdjN0Kwh/qnFzhjnTBxnt4KmDh3MB6z2GpSSFUG224hSL3U2rhHGdWlpT62\nas+h\r\n=xVbp\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "b4aabc3f6bbe947c15435b9daeaf4c118a99768c",
+  "homepage": "https://github.com/hhjjj1010/cordova-plugin-alipay-v2#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "alipay",
+    "cordova-plugin-alipay",
+    "cordova-plugin-alipay-v2"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "hhjjj1010",
+      "email": "hhjjj1010@qq.com"
+    }
+  ],
+  "name": "cordova-plugin-alipay-v2",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,90 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-wechat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wechat@2.1.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "WECHATAPPID": "wx7407060a8eb038f8"
+    }
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file-transfer": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file-transfer@^1.7.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file@^5.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "jpush-phonegap-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/jpush/jpush-phonegap-plugin.git"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_KEY": "e8f17262e692f1f128637f40"
+    }
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-jcore": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-jcore"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-alipay-v2": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-alipay-v2"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "2017031406210593"
+    }
+  },
+  "cordova-plugin-weibosdk": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-weibosdk"
+    },
+    "is_top_level": true,
+    "variables": {
+      "WEIBO_APP_ID": "4285108144"
+    }
+  }
+}

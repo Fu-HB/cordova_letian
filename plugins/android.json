@@ -1,0 +1,43 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wx7407060a8eb038f8",
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "jpush-phonegap-plugin": {
+      "APP_KEY": "e8f17262e692f1f128637f40",
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-alipay-v2": {
+      "APP_ID": "2017031406210593",
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    },
+    "cordova-plugin-jcore": {
+      "PACKAGE_NAME": "com.letiancenter.letianpsychological"
+    }
+  }
+}
