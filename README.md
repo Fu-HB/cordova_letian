@@ -3,12 +3,16 @@ vue+cordova混合开发安卓版
 ## build
 AndroidApp的打包流程大致分为 build , sign , align 三部分。
 1. build
+
   ` cordova build android --release `
 2. sign
+
   ` keytool -genkey -v -keystore release-key.keystore -alias cordova-keystore -keyalg RSA -keysize 2048 -validity 10000 `
 3. align
+
  ` jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore release-key.keystore android-applatforms/android/build/outputs/apkk/android-release-unsigned.apk cordova-keystore `
 4. apk的压缩和优化由上传至应用宝的时候进行，需要重新签名和压缩优化,以上是第一次进行release的命令
+
  ` cordova build android --release -- --keystore="release-key.keystore" --alias=cordova-keystore --storePassword=fhb18979687252 --password=fhb18979687252 `
 5. 使用腾讯的LEGU加固然软件进行加固
 
@@ -19,7 +23,7 @@ AndroidApp的打包流程大致分为 build , sign , align 三部分。
 
 Android app 的打包分为 debug 和 release 两种，后者是用来发布到应用商店的版本。这篇文章会告诉你 Cordova 如何打包 Android release 版本，也会让你了解 Android app 的打包流程。
 
-## 创建一个 demo app
+创建一个 demo app
 
 为了演示，首先我们需要创建一个 Cordova 项目的基本步骤。如果你已经对此很熟悉，可以跳过这一步。
 
